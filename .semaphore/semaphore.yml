@@ -22,7 +22,7 @@ blocks:
           value: '-mod=vendor'
       prologue:
         commands:
-          - sem-version go 1.17.2
+          - sem-version go 1.16
           - checkout
           - cache restore
   - name: Test
